@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Форма регистрации</title>
+  <link rel="stylesheet" href="stil.css" />
+  <link rel="stylesheet" href=/>
+</head>
+<body>
+  <div class="container">
+   <div class="content">
+    <div class="details">
+      <div class="right-side">
+        <div class="topic-text"><a href="#">Форма обратной связи</a>
+          <form action="#" id="from" neme="form" >
+            <div class="input-box">
+              <b>Имя</b>
+              <input type="text" placeholder="Введите имя" id="name" name="name" data-reg="^[А-яЁ][а-яё]+$" />
+            </div>
+            <div class="input-box">
+              <b>Email</b>
+              <input type="text" placeholder="Введите email" id="email" name="email" data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$" />
+            </div>
+            <div class="input-box">
+              <b>Телефон</b>
+              <input type="text" placeholder="Введите номер телефона" id="phone" name="phone" data-reg="^((\+7|8)+([0-9]){10})$" />
+            </div>
+            <div class="input-box message-box">
+              <b>Сообщение</b>
+              <textarea placeholder=" ВведитеСообщение"></textarea>
+            </div>
+            <div class="button">
+              <input type="button" value="Отправить" />
+            </div>
+          </form>
+        </div>
+      </div>
+   </div>
+</body>
+</html>
