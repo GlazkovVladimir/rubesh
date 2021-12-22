@@ -1,0 +1,51 @@
+textarea {
+    font-weight: 100;
+    font-size: 16px;
+    border-radius: 8px;
+    resize: none;
+    width: 210px;
+    height: 200px;
+    border-color: darkgrey;
+    padding-left: 20px;
+    color: darkgrey;
+    font-family:'system-ui';
+
+     
+}
+.title {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: 900; 
+    font-size: large; 
+    color: grey;
+    
+    margin: 0px 10px;
+}
+
+.nam {
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    border-color: darkgrey; 
+}
+
+.head {
+    margin: 20px 0px;
+}
+
+
+.but {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ec654f;
+  border: none;
+  border-radius: 5px;
+  margin: -8px 15px;
+}

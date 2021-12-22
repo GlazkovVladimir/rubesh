@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>JavaScript первое задание</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    </head>
+
+<body>
+    <div class="back">
+    <u style="font-size: 20px; color: rgb(70,133,162); font-family: Arial, Helvetica, sans-serif; font-weight: 900;">Форма обратной связи</u>
+
+    <form action="#" id="form" name="form">
+
+        <div class="head">
+            <b class="title">Имя</b><br>
+            <input type="text" class="nam" placeholder="Введите имя и отчество" name="name" id="name" data-reg="^[А-ЯЁ][а-яё]*$">
+        </div>
+
+        <div class="head">
+            <b class="title">E-mail</b><br>
+            <input type="text" class="nam" placeholder="Ваш e-mail" name="mail" id="mail" data-reg="/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i">
+        </div>
+
+        <div class="head">
+            <b class="title">Телефон</b><br>
+            <input type="text" class="nam" placeholder="Ваш телефон" name="phone" id="phone" data-reg="/^\+?(\d{7})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$/" >
+        </div>
+
+        <div class="head">
+            <b class="title">Сообщение</b><br>
+            <textarea name="message" id="message" placeholder="Введите сообщение"></textarea>
+        </div>
+    </div>
+
+    <button class="but">Отправить</button>
+    </form>
+    
+    <script src="js/main.js"></script>
+
+    
+</body>
+</html>
